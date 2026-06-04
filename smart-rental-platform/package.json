@@ -1,0 +1,75 @@
+{
+  "restaurant": {
+    "id": 1,
+    "name": "FoodyX Restaurant",
+    "address": "Kathmandu, Nepal",
+    "phone": "+977-9800000000"
+  },
+  "menu": [
+    {
+      "id": 101,
+      "name": "Chicken Burger",
+      "category": "Fast Food",
+      "price": 250,
+      "available": true
+    },
+    {
+      "id": 102,
+      "name": "Pizza",
+      "category": "Italian",
+      "price": 600,
+      "available": true
+    },
+    {
+      "id": 103,
+      "name": "Momo",
+      "category": "Nepali",
+      "price": 180,
+      "available": true
+    },
+    {
+      "id": 104,
+      "name": "French Fries",
+      "category": "Snacks",
+      "price": 150,
+      "available": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ganesh Devkota",
+      "email": "ganesh@example.com",
+      "phone": "+977-9812345678",
+      "address": "Bhaktapur, Nepal"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 5001,
+      "customerId": 1,
+      "items": [
+        {
+          "foodId": 101,
+          "quantity": 2
+        },
+        {
+          "foodId": 103,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 680,
+      "status": "Delivered",
+      "orderDate": "2026-06-04"
+    }
+  ],
+  "deliveryPartners": [
+    {
+      "id": 1,
+      "name": "Ram Bahadur",
+      "phone": "+977-9876543210",
+      "vehicle": "Bike",
+      "status": "Available"
+    }
+  ]
+}
